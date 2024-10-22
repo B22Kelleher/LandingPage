@@ -8,7 +8,7 @@ body{
     padding-bottom: 50px;
     background-color: #1f2937;
     color: white;
-    font: roboto;
+    font-family: "roboto";
     align-items: center;
 }
 
@@ -81,5 +81,48 @@ img{
     display: flex;
     flex-wrap: flex;
     max-width: 80px;
-    font-size: 10px;
+    font-size: 15px;
+}
+.third{
+    display:flex;
+    background-color: #E5E7EB;
+    align-items: end;
+    justify-content: center;
+    padding: 30px;
+}
+.testimonial{
+    display: flex;
+   font-size: 24px;
+   font-family: "light italic";
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+.name{
+    margin-left: 320px;
+}
+
+.blue-box{
+    display:flex;
+    background-color: #3882F6; 
+    margin: 50px 100px;
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+h4{
+    margin-bottom: 0;
+}
+.no-top{
+    margin-top: 0;
+}
+.sign{
+    border-color: white;
+    
+}
+.footer{
+   display: flex; 
+   background-color: #1F2937;
+   color: white;
+   justify-content: center;
 }
